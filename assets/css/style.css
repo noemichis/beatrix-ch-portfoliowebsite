@@ -1,3 +1,46 @@
 * {
     box-sizing: border-box;
 }
+
+header, main, footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header */
+
+header {
+    height: 10%;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+#logo-image {
+    max-width: 250px;
+}
+
+#navbar {
+    margin-right: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#navbar li *{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
