@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url(../images/uyuni-cover.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 header, main, footer {
     width: 90%;
     margin-left: auto;
@@ -50,6 +55,7 @@ a {
 main {
     padding: 10px;
     /* flex-direction: column; */
+    border: 1px solid black;
 }
 
 .container {
@@ -76,6 +82,15 @@ main {
 
 #contain {
     object-fit: contain;
+}
+
+
+/* footer */
+
+
+footer {
+
+
 }
 
 /* media screens */
