@@ -3,7 +3,7 @@
 }
 
 html {
-    background: url(../images/uyuni-cover.jpg) no-repeat center center fixed;
+    background: url(../images/uyuni-cover.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -96,7 +96,7 @@ main {
 
 .card img {
     width: 100%;
-    max-height: 250px;
+    max-height: 225px;
     object-fit: cover;
 }
 
@@ -160,8 +160,15 @@ footer {
 
 @media screen and (min-width: 1075px) {
    
-
     .container :nth-child(1) {
         flex-grow: 1;
+    }
+
+    .card img {
+        max-height: 250px;
+    }
+
+    #contain {
+        max-height: 225px;
     }
 }
