@@ -134,6 +134,15 @@ footer {
     justify-content: center;
 }
 
+.links li {
+    padding: 10px;
+}
+
+i {
+    transform: scale(1.75);
+    color: black;
+}
+
 /* media screens */
 
 @media screen and (min-width: 500px) {
