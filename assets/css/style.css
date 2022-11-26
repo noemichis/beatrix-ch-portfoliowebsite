@@ -167,7 +167,13 @@ i {
     justify-content: center;
 }
 
-.long {
+.portfolio * {
+    object-fit: cover;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.heading {
     grid-column: span 4;
     grid-row: span 1;
 }
@@ -177,7 +183,7 @@ i {
     grid-row: span 2;
 }
 
-.medium {
+.rectangle {
     grid-column: span 4;
     grid-row: span 2;
 }
