@@ -162,7 +162,7 @@ i {
 }
 
 .portfolio {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
 }
@@ -261,14 +261,14 @@ i {
         grid-column: span 4;
         grid-row: span 6;
     }
-      
+
     #eye-top, #eye-middle, #eye-bottom {
         grid-column: span 4;
         grid-row: span 2;
     }
 }
 
-@media screen and (min-width: 1075px) {
+@media screen and (min-width: 1025px) {
 
     .container-outline {
         width: 80%;
@@ -285,4 +285,63 @@ i {
     #contain {
         max-height: 225px;
     }
+
+    .grid-container {
+        grid-template-rows: repeat(22, minmax(25px, 100px));
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .grid-container {
+        grid-template-rows: repeat(23, minmax(25px, 150px));
+    }
+
+    .heading {
+        grid-column: span 8;
+        grid-row: span 1;
+    }
+
+    .rectangle {
+        grid-column: span 6;
+    } 
+
+    .big-square {
+        grid-column: span 4;
+        grid-row: span 3;
+    }
+
+    #dog {
+        grid-column: span 2;
+        grid-row: span 3;
+
+    }
+
+    #lotr {
+        grid-column: span 4;
+    } 
+
+    .taller {
+        grid-row: span 4;
+    }
+
+    .larger {
+        grid-column: span 4;
+    }
+
+    .comics {
+        grid-column: 2 / span 3;
+        grid-row: span 3;
+    }
+
+    #center-comics img {
+        object-position: top;
+    }
+
+    #eye-top, #eye-middle, #eye-bottom {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+
 }
