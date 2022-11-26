@@ -149,6 +149,47 @@ i {
     color: black;
 }
 
+
+/* gallery page */
+
+.grid-container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(30, minmax(25px, 75px));
+    gap: 5px;
+}
+
+.portfolio {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.long {
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+.square {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.medium {
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.tall {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+
+
+
 /* media screens */
 
 @media screen and (min-width: 500px) {
