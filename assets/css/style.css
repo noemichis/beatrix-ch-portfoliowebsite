@@ -9,12 +9,14 @@ html {
 
 body * {
     margin: 0;
+    padding: 0;
 }
 
 .container-outline {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 12.5%;
     box-shadow: 5px 10px 30px whitesmoke inset, 7px 20px 80px #fad7e3b8 inset;
 }
 
@@ -125,12 +127,16 @@ main {
 
 
 footer {
-    width: 90%;
+    position: sticky;
+    bottom: 0;
+    z-index: 3;
     margin-left: auto;
     margin-right: auto;
+    background: white;
 }
 
 .links {
+    padding: 10px;
     justify-content: center;
 }
 
@@ -151,7 +157,10 @@ i {
 }
 
 @media screen and (min-width: 660px) {
-    
+    .container-outline {
+        width: 80%;
+     }
+
     header {
         justify-content: space-between;
     }
@@ -168,7 +177,7 @@ i {
 }
 
 @media screen and (min-width: 1075px) {
-   
+
     .container :nth-child(1) {
         flex-grow: 1;
     }
