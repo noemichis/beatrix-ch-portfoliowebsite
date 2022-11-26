@@ -127,12 +127,12 @@ main {
 
 
 footer {
-    position: sticky;
+    /* position: sticky;
     bottom: 0;
-    z-index: 3;
+    z-index: 3; */
     margin-left: auto;
     margin-right: auto;
-    background: white;
+    /* background: white; */
 }
 
 .links {
@@ -156,7 +156,7 @@ i {
     display: grid;
     height: 100%;
     width: 100%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(30, minmax(25px, 75px));
     gap: 5px;
 }
@@ -174,39 +174,46 @@ i {
 }
 
 .heading {
-    grid-column: span 4;
+    grid-column: span 8;
     grid-row: span 1;
 }
 
 .square {
-    grid-column: span 2;
-    grid-row: span 2;
-}
-
-.rectangle {
     grid-column: span 4;
     grid-row: span 2;
 }
 
+.rectangle {
+    grid-column: span 8;
+    grid-row: span 2;
+}
+
 .tall {
-    grid-column: span 2;
+    grid-column: span 4;
     grid-row: span 3;
 }
 
-
-
+#eye-top, #eye-middle, #eye-bottom {
+    grid-column: span 4;
+    grid-row: span 1;
+}
 
 /* media screens */
 
 @media screen and (min-width: 500px) {
 
+    .grid-container {
+        grid-template-rows: repeat(30, minmax(25px, 80px));
+    }
+
+    /* .comics * {
+        object-fit: contain;
+    } */
 
 }
 
 @media screen and (min-width: 660px) {
-    .container-outline {
-        width: 80%;
-     }
+    
 
     header {
         justify-content: space-between;
@@ -221,9 +228,51 @@ i {
     .container :nth-child(1) {
         flex-grow: 2;
     }
+
+    .grid-container {
+        grid-template-rows: repeat(22, minmax(25px, 80px));
+    }
+
+    .heading{
+        grid-column: span 4;
+    }
+
+    .smaller {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .rectangle {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    .tall {
+        grid-column: span 2;
+        grid-row: span 3;
+    }
+
+    .larger {
+        grid-column: span 4;
+        grid-row: span 3;
+    }
+
+    .comics {
+        grid-column: span 4;
+        grid-row: span 6;
+    }
+      
+    #eye-top, #eye-middle, #eye-bottom {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
 }
 
 @media screen and (min-width: 1075px) {
+
+    .container-outline {
+        width: 80%;
+     }
 
     .container :nth-child(1) {
         flex-grow: 1;
