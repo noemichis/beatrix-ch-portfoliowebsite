@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Recursive&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +12,19 @@ html {
 body * {
     margin: 0;
     padding: 0;
+    font-family:'Merriweather Sans', sans-serif;
 }
+
+h1, h2 {
+    font-family: 'Recursive', sans-serif;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
 
 .container-outline {
     width: 90%;
@@ -56,6 +70,7 @@ li {
 }
 
 #navbar li *{
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -71,12 +86,12 @@ main {
 }
 
 #title {
-    margin-bottom: 5px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
 #title * {
-    padding: 5px;
+    padding: 7px;
 }
 
 .container {
@@ -205,6 +220,7 @@ i {
     width: 80%;
     min-height: 300px;
     margin: auto;
+    padding: 15px;
 
 }
 
@@ -227,19 +243,25 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    padding: 5px;
+    padding: 7px;
     border-radius: 10px;
     border: none;
+    box-shadow: 5px 5px 10px black;
 }
 
-input[type="submit"] {
+#button {
     width: 125px;
     height: 50px;
     padding: 10px;
     margin: 30px auto 10px;
     text-transform: uppercase;
     font-weight: bold;
-    border-radius: 5% 95% 5% 95% / 95% 2% 95% 3%;
+    border-radius: 95% 5% 95% 5% / 2% 95% 3% 95%;
+    box-shadow: 5px 5px 10px black;
+}
+
+#button:hover {
+    transform: scale(1.1);
 }
 
 
@@ -253,9 +275,9 @@ input[type="submit"] {
         grid-template-rows: repeat(30, minmax(25px, 80px));
     }
 
-    /* .comics * {
-        object-fit: contain;
-    } */
+   .form {
+    width: 400px;
+   }
 
 }
 
@@ -313,6 +335,7 @@ input[type="submit"] {
         grid-column: span 4;
         grid-row: span 2;
     }
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -336,6 +359,7 @@ input[type="submit"] {
     .grid-container {
         grid-template-rows: repeat(22, minmax(25px, 100px));
     }
+
 }
 
 @media screen and (min-width: 1200px) {
