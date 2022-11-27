@@ -13,18 +13,18 @@ body * {
     margin: 0;
     padding: 0;
     font-family:'Merriweather Sans', sans-serif;
+    color: #2e2452;
+    font-size: 1em;
 }
 
 h1, h2 {
     font-family: 'Recursive', sans-serif;
-    font-size: 28px;
+    font-size: 1.6rem;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 1.2rem;
 }
-
-
 
 .container-outline {
     width: 90%;
@@ -34,7 +34,6 @@ h3 {
     /* margin-bottom: 12.5%; */
     box-shadow: 5px 10px 30px whitesmoke inset, 7px 20px 80px #fad7e3b8 inset;
 }
-
 
 
 .flex {
@@ -52,12 +51,12 @@ header {
 }
 
 #logo-image {
-    padding: 10px;
+    padding: 20px 10px 10px 10px;
     max-width: 250px;
 }
 
 ul {
-    padding: 0 10px 10px 10px;
+    padding: 10px;
 }
 
 #navbar {
@@ -133,6 +132,26 @@ main {
     z-index: 2;
 }
 
+#about {
+    padding: 10px 20px;
+    padding: 10px 20px;
+    text-align: center;
+    /* border-radius: 20px; */
+    background: #eeeeee7a;
+    /* box-shadow: 5px 7px 10px #504972, 5px 7px 20px #fad7e3; */
+    border: 3px solid #504972;
+    border-radius: 99% 1% 99% 1% / 1% 99% 1% 99%;
+    box-shadow: 5px 3px 10px #504972, 5px 3px 20px #fad7e3;
+}
+
+#about * {
+    padding: 10px 0px;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    
+    
+}
+
 
 /* footer */
 
@@ -156,7 +175,7 @@ footer {
 
 i {
     transform: scale(1.75);
-    color: black;
+    color: #2e2452;;
 }
 
 /* .shadow {
@@ -265,6 +284,7 @@ textarea {
     height: 50px;
     padding: 10px;
     margin: 30px auto 10px;
+    background: #eeeeee7a;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 95% 5% 95% 5% / 2% 95% 3% 95%;
@@ -302,6 +322,10 @@ textarea {
     #navbar {
         margin-right: 20px;
         justify-content: flex-end;
+    }
+
+    #logo-image {
+        margin-left: 20px;
     }
 
     .grid-container {
