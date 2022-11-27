@@ -204,6 +204,10 @@ i {
     grid-row: span 1;
 }
 
+.heading > h3 {
+    text-align: center;
+}
+
 .square {
     grid-column: span 4;
     grid-row: span 2;
