@@ -30,6 +30,7 @@ h3 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
     /* margin-bottom: 12.5%; */
     box-shadow: 5px 10px 30px whitesmoke inset, 7px 20px 80px #fad7e3b8 inset;
 }
@@ -186,12 +187,16 @@ i {
     /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
+    border-radius: 20px;
 }
 
 .portfolio * {
+    margin: 7px;
     object-fit: cover;
     flex-grow: 1;
     overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 7px -5px 20px #232121, 7px -7px 30px #fad7e3;
 }
 
 .heading {
@@ -252,7 +257,7 @@ textarea {
     padding: 7px;
     border-radius: 10px;
     border: none;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 7px 5px 20px #232121, 7px 7px 30px #fad7e3;
 }
 
 #button {
@@ -263,7 +268,7 @@ textarea {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 95% 5% 95% 5% / 2% 95% 3% 95%;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 7px 5px 20px #232121, 7px 7px 30px #fad7e3;
 }
 
 #button:hover {
