@@ -55,6 +55,7 @@ header {
     width: 100%;
     justify-content: center;
     position: fixed;
+    top: 0;
     background: #eeeeeeab;
     box-shadow: 5px 10px 30px whitesmoke inset, 7px 20px 80px #fad7e3b8 inset;
     z-index: 3;
@@ -120,7 +121,11 @@ a {
 
 main {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 230px;
+}
+
+#home { 
+    margin-top: 25px;
 }
 
 #title {
