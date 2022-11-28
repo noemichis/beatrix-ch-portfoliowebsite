@@ -106,8 +106,6 @@ main {
     justify-content: space-evenly;
     align-items: center;
     gap: 10px;
-
-    /* justify-content: space-around; */
 }
 
 .card {
@@ -119,7 +117,6 @@ main {
     border-radius: 20px;
     /* box-shadow: 10px 5px 30px #eee, 10px 5px 40px #d9c0dd; */
     box-shadow: 5px 7px 10px #504972, 5px 7px 20px #fad7e3;
-    /* border: 1px solid #504972; */
     aspect-ratio: 1 / 1;
  } 
 
@@ -143,9 +140,7 @@ main {
     padding: 10px 20px;
     padding: 10px 20px;
     text-align: center;
-    /* border-radius: 20px; */
     background: #eeeeee7a;
-    /* box-shadow: 5px 7px 10px #504972, 5px 7px 20px #fad7e3; */
     border: 3px solid #504972;
     border-radius: 99% 1% 99% 1% / 1% 99% 1% 99%;
     box-shadow: 5px 3px 10px #504972, 5px 3px 20px #fad7e3;
@@ -154,9 +149,7 @@ main {
 #about * {
     padding: 10px 0px;
     font-weight: bold;
-    letter-spacing: 0.9px;
-    
-    
+    letter-spacing: 0.9px;   
 }
 
 
@@ -164,9 +157,6 @@ main {
 
 
 footer {
-    /* position: sticky;
-    bottom: 0;
-    z-index: 3; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -185,13 +175,7 @@ i {
     color: #2e2452;;
 }
 
-/* .shadow {
-    border-radius: 20px;
-    box-shadow: 5px 3px 10px #504972, 5px 3px 20px #fad7e3;
-} */
-
-
-/* gallery page */
+/* Gallery page */
 
 .grid-container {
     display: grid;
@@ -203,7 +187,6 @@ i {
 }
 
 .portfolio {
-    /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
     border-radius: 20px;
@@ -215,7 +198,6 @@ i {
     flex-grow: 1;
     overflow: hidden;
     border-radius: 20px;
-    /* box-shadow: 7px -5px 20px #232121, 7px -7px 30px #fad7e3; */
     box-shadow: 5px 3px 10px #504972, 5px 3px 20px #fad7e3;
 }
 
@@ -302,9 +284,6 @@ textarea {
     transform: scale(1.1);
 }
 
-
-
-
 /* media screens */
 
 @media screen and (min-width: 500px) {
@@ -316,7 +295,6 @@ textarea {
    .form {
     width: 400px;
    }
-
 }
 
 @media screen and (min-width: 660px) {
@@ -372,7 +350,6 @@ textarea {
         grid-column: span 4;
         grid-row: span 2;
     }
-
 }
 
 @media screen and (min-width: 1025px) {
@@ -397,7 +374,6 @@ textarea {
     .portfolio * {
         box-shadow: 5px 7px 20px #504972, 5px 7px 30px #fad7e3;
     }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -451,6 +427,4 @@ textarea {
         grid-column: span 3;
         grid-row: span 1;
     }
-
-
 }
