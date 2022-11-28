@@ -53,12 +53,17 @@ header {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding: 25px 0;
     box-shadow: 5px 10px 30px whitesmoke inset, 7px 20px 80px #fad7e3b8 inset;
 }
 
 #logo-image {
     padding: 20px 10px 10px 10px;
     max-width: 250px;
+}
+
+#logo-image:hover {
+    transform: scale(1.1);
 }
 
 ul {
@@ -75,9 +80,13 @@ li {
     padding: 5px;
 }
 
-#navbar li *{
+#navbar li * {
     font-size: 18px;
     font-weight: bold;
+}
+
+li:hover {
+    transform: scale(1.2);
 }
 
 a {
@@ -92,6 +101,7 @@ main {
 
 #title {
     margin-bottom: 10px;
+    padding: 20px 10px 10px 10px;
     text-align: center;
 }
 
@@ -104,7 +114,7 @@ main {
     padding: 10px 10px 30px 10px;
     justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .card {
@@ -113,7 +123,7 @@ main {
     /* flex-direction: column; */
     align-items: center;
     position: relative;
-    border-radius: 20px;
+    border-radius: 50%;
     /* box-shadow: 10px 5px 30px #eee, 10px 5px 40px #d9c0dd; */
     box-shadow: 5px 7px 10px #504972, 5px 7px 20px #fad7e3;
     aspect-ratio: 1 / 1;
@@ -122,8 +132,14 @@ main {
 .card img {
     width: 100%;
     height: 100%;
+    padding: 1px;
+    border: 2px solid #2e2452;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 50%;
+}
+
+.card img:hover {
+    transform: scale(1.1) ;
 }
 
 .card p {
@@ -159,6 +175,7 @@ main {
 
 
 footer {
+    height: 10%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -169,11 +186,11 @@ footer {
 }
 
 .links li {
-    padding: 10px;
+    padding: 30px;
 }
 
 i {
-    transform: scale(1.75);
+    transform: scale(2.5);
     color: #2e2452;;
 }
 
@@ -235,7 +252,7 @@ i {
 }
 
 
-/* get in touch page */
+/* Get in touch page */
 
 .form {
     width: 80%;
@@ -266,7 +283,8 @@ input[type="email"],
 textarea {
     padding: 7px;
     border-radius: 10px;
-    border: none;
+    background: #eeeeee7a;
+    border: 1px solid #504972;
     box-shadow: 5px 3px 10px #504972, 5px 3px 20px #fad7e3;
 }
 
@@ -315,6 +333,10 @@ textarea {
         margin-left: 20px;
     }
 
+    #about {
+        width: 70%;
+     }
+
     .grid-container {
         grid-template-rows: repeat(22, minmax(25px, 80px));
     }
@@ -360,9 +382,10 @@ textarea {
         width: 80%;
      }
 
+
      .card {
-        width: 250px;
-        height: 250px;
+        width: 175px;
+        height: 175px;
     }
 
     .grid-container {
