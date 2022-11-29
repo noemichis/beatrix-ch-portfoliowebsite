@@ -150,6 +150,7 @@ a {
 main {
     width: 100%;
     margin-top: 230px;
+    margin-bottom: 25px;
 }
 
 #home { 
@@ -173,7 +174,7 @@ main {
     position: relative;
     border-radius: 50%;
     /* box-shadow: 10px 5px 30px #eee, 10px 5px 40px #d9c0dd; */
-    box-shadow: 5px 7px 10px #504972, 5px 7px 20px #fad7e3;
+    box-shadow: 5px 7px 10px #504972, 5px 7px 20px #2e2452;
     aspect-ratio: 1 / 1;
  } 
 
@@ -206,9 +207,9 @@ main {
     padding: 10px 20px;
     text-align: center;
     background: #eeeeeea3;
-    border: 3px solid #504972;
-    border-radius: 99% 1% 99% 1% / 1% 99% 1% 99%;
-    box-shadow: 5px 3px 10px #504972, 5px 3px 20px #fad7e3;
+    border: 5px solid #504972;
+    border-radius: 95% 1% 95% 1% / 2% 99% 2% 99%;
+    box-shadow: 10px 10px 20px #504972, 7px 5px 10px #2e2452;
 }
 
 #about * {
@@ -218,13 +219,22 @@ main {
 }
 
 
+#about a:hover {
+    color:#842395;
+}
+
 /* footer */
 
 
 footer {
-    height: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
+    width: 100%;
+    background: #fdf5f5;
+}
+
+#footer-bg {
+    background: url(../images/uyuni2.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .links {
