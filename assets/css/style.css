@@ -41,7 +41,7 @@ h3 {
 /* universal classes */
 
 .background-image {
-    background: url(../images/uyuni2.jpg) no-repeat fixed;
+    background: url(../images/uyuni2.jpg) no-repeat center center fixed;
     background-size: cover;
     z-index: 2;
 }
