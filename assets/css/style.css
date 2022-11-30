@@ -18,7 +18,7 @@ html, body {
 /* Set background and font properties */
 
 body {
-    /* background: url(../images/uyuni2.jpg) no-repeat center center fixed; */
+    /* background: url(../images/uyuni2.webp) no-repeat center center fixed; */
     background: #fdf5f5;
     background-size: cover;
 }
@@ -41,7 +41,7 @@ h3 {
 /* universal classes */
 
 .background-image {
-    background: url(../images/uyuni2.jpg) no-repeat center center fixed;
+    background: url(../images/uyuni2.webp) no-repeat center center fixed;
     background-size: cover;
     z-index: 2;
 }
@@ -119,7 +119,7 @@ a {
 #hero {
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../images/uyuni-cover.jpg) no-repeat 77% fixed;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../images/uyuni-cover.webp) no-repeat 77% fixed;
     background-size: cover;
 }
 
