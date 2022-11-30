@@ -31,11 +31,12 @@ body * {
 
 h1, h2 {
     font-family: 'Recursive', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 /* universal classes */
@@ -102,7 +103,8 @@ li {
 }
 
 #navbar li * {
-    font-size: 18px;
+    font-size: 1rem;
+    font-family: 'Recursive', sans-serif;
     font-weight: bold;
 }
 
@@ -129,11 +131,17 @@ a {
     padding: 20px;
     /* text-align: center; */
     position: absolute;
-    top: 30%;
+    top: 35%;
 }
 
 #title * {
     padding: 5px;
+}
+
+
+#title h1 {
+    text-transform: uppercase;
+    text-shadow: 7px 3px 7px #504972;
 }
 
 #hero-btn {
@@ -148,6 +156,14 @@ a {
     border: 2px solid #2e2452;
     border-radius: 95% 5% 95% 5% / 2% 95% 3% 95%;
     box-shadow: 5px 3px 10px #504972, 5px 3px 20px #fad7e3;
+}
+
+#hero-btn a {
+    font-family: 'Recursive', sans-serif;
+}
+
+#hero-btn:hover {
+    transform: scale(1.2);
 }
 
 
@@ -272,10 +288,11 @@ i {
     display: grid;
     height: 100%;
     width: 100%;
+    margin: auto;
     padding: 10px;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(30, minmax(25px, 75px));
-    gap: 5px;
+    grid-template-columns: repeat(8, minmax(15px, 75px));
+    grid-template-rows: repeat(30, minmax(15px, 75px));
+    gap: 10px;
 }
 
 .portfolio {
@@ -300,7 +317,9 @@ i {
 }
 
 .heading > h3 {
-    padding: 1.5rem;
+    font-size: 1rem;
+    font-family: 'Recursive', sans-serif;
+    padding: 1.1rem;
     text-align: center;
 }
 
@@ -327,11 +346,19 @@ i {
 
 /* Get in touch page */
 
+.contact-card {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fdf5f5c4;
+    /* box-shadow: 5px 10px 30px whitesmoke inset, 7px 20px 80px #7f7cafb3 inset; */
+}
+
 .form {
     width: 80%;
     min-height: 300px;
     margin: auto;
-    padding: 15px;
+    padding: 20px 15px 30px 15px;
 
 }
 
@@ -340,14 +367,17 @@ i {
     flex-direction: column;
 }
 
-.form h2 {
+.contact-card h2 {
+    font-size: 1.8rem;
     text-align: center;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 40px 0 20px 0;
+    text-transform: uppercase;
+    text-shadow: 7px 3px 7px #504972;
 }
 
 label {
     padding: 10px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -385,18 +415,29 @@ textarea {
         left: 10%;
     }
 
+    main {
+        margin-top: 175px;
+    }
+
     .grid-container {
+        grid-template-columns: repeat(8, minmax(25px, 80px));
         grid-template-rows: repeat(30, minmax(25px, 80px));
     }
 
-   .form {
+    .contact-card {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background: #fdf5f5c4;
+        /* box-shadow: 5px 10px 30px whitesmoke inset, 7px 20px 80px #7f7cafb3 inset; */
+    }
+
+    .form {
     width: 400px;
-   }
+}
 }
 
 @media screen and (min-width: 660px) {
-    
-
     header {
         justify-content: space-between;
     }
@@ -404,6 +445,10 @@ textarea {
     #navbar {
         margin-right: 20px;
         justify-content: flex-end;
+    }
+
+    #navbar li * {
+        font-size: 1.1rem;
     }
 
     #logo-image {
@@ -414,15 +459,202 @@ textarea {
         left: 15%;
     }
 
+    #title h1 {
+        font-size: 2rem;
+    }
+
     #about {
         width: 70%;
-     }
+    }
+
 
     .grid-container {
-        grid-template-rows: repeat(22, minmax(25px, 80px));
+        grid-template-columns: repeat(8, minmax(25px, 150px));
+        grid-template-rows: repeat(18, minmax(25px, 100px));
     }
 
     .heading{
+        grid-column: span 4;
+    }
+
+    .smaller {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+
+    #lotr {
+        grid-column: span 3;
+    }
+
+    #forest {
+        grid-column: span 3;
+    }
+
+    .rectangle {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    .tall {
+        grid-column: span 3;
+        grid-row: span 3;
+    }
+
+    .taller {
+        grid-column: span 2;
+    }
+
+    #city {
+        grid-column: span 3;
+    }
+
+    /* .larger {
+        grid-column: span 4;
+        grid-row: span 3;
+    } */
+
+    .comics {
+        grid-column: span 4;
+        grid-row: span 3;
+    }
+
+    /* #eye-top, #eye-middle, #eye-bottom {
+        grid-column: span 4;
+        grid-row: span 1;
+    }*/
+}
+
+@media screen and (min-width: 1025px) {
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .container-outline {
+        width: 80%;
+    }
+
+    #title {
+        left: 20%;
+    }
+
+
+    .card {
+        width: 175px;
+        height: 175px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(8, minmax(25px, 150px));
+        grid-template-rows: repeat(19, minmax(25px, 100px));
+    }
+
+    .portfolio {
+        padding: 7px;
+    }
+
+    .portfolio * {
+        box-shadow: 5px 7px 20px #504972, 5px 7px 30px #fad7e3;
+    }
+
+    .earth {
+        grid-column: span 4;
+        grid-row: span 3;
+    }
+
+    .contact-card {
+        width: 70%;
+    }
+
+    .contact-card h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    #title {
+        left: 25%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(8, minmax(25px, 150px));
+        grid-template-rows: repeat(21, minmax(25px, 150px));
+    }
+
+    .heading {
+        grid-column: span 8;
+        grid-row: span 1;
+    }
+
+    .heading > h3 {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
+
+
+    .rectangle {
+        grid-column: span 5;
+    } 
+
+    .smaller {
+        grid-column: span 3;
+    }
+
+    #mona {
+        grid-column: span 2;
+    }
+
+    .big-square {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    /* #dog {
+        grid-column: span 2;
+        grid-row: span 3;
+
+    } */
+
+    /* #lotr {
+        grid-column: span 4;
+    }  */
+
+    .earth {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    .taller {
+        grid-row: span 4;
+    }
+
+    
+
+    .comics {
+        grid-column: 2 / span 3;
+        grid-row: span 3;
+    }
+
+    #center-comics img {
+        object-position: top;
+    }
+
+    #eye-top, #eye-middle, #eye-bottom {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+}
+
+
+@media screen and (min-width: 1450px) {
+    .grid-container {
+        grid-template-columns: repeat(8, minmax(50px, 200px));
+        grid-template-rows: repeat(17, minmax(25px, 150px));
+    }
+
+    .heading {
         grid-column: span 4;
     }
 
@@ -441,91 +673,31 @@ textarea {
         grid-row: span 3;
     }
 
-    .larger {
-        grid-column: span 4;
-        grid-row: span 3;
-    }
-
-    .comics {
-        grid-column: span 4;
-        grid-row: span 6;
-    }
-
-    #eye-top, #eye-middle, #eye-bottom {
-        grid-column: span 4;
-        grid-row: span 2;
-    }
-}
-
-@media screen and (min-width: 1025px) {
-
-    .container-outline {
-        width: 80%;
-     }
-
-     #title {
-        left: 20%;
-     }
-
-
-     .card {
-        width: 175px;
-        height: 175px;
-    }
-
-    .grid-container {
-        grid-template-rows: repeat(22, minmax(25px, 100px));
-    }
-
-    .portfolio {
-        padding: 7px;
-    }
-
-    .portfolio * {
-        box-shadow: 5px 7px 20px #504972, 5px 7px 30px #fad7e3;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-
-    #title {
-        left: 25%;
-    }
-
-    .grid-container {
-        grid-template-rows: repeat(23, minmax(25px, 150px));
-    }
-
-    .heading {
-        grid-column: span 8;
-        grid-row: span 1;
-    }
-
-    .rectangle {
-        grid-column: span 6;
-    } 
-
-    .big-square {
-        grid-column: span 4;
-        grid-row: span 3;
-    }
-
     #dog {
-        grid-column: span 2;
-        grid-row: span 3;
-
+        grid-row: span 2;
     }
 
     #lotr {
-        grid-column: span 4;
-    } 
-
-    .taller {
-        grid-row: span 4;
+        grid-column: span 2;
     }
 
-    .larger {
+    #forest {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    #city {
         grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    /* .larger {
+        grid-column: span 4;
+        grid-row: span 3;
+    } */
+
+    #comics {
+        grid-column: span 8;
     }
 
     .comics {
@@ -533,12 +705,12 @@ textarea {
         grid-row: span 3;
     }
 
-    #center-comics img {
-        object-position: top;
-    }
-
     #eye-top, #eye-middle, #eye-bottom {
         grid-column: span 3;
         grid-row: span 1;
     }
-}
+
+    .contact-card {
+        width: 60%;
+    }
+}   
