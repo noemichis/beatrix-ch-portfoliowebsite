@@ -4,6 +4,22 @@
 
 This project is a portfolio website for illustrator, Beatrix Chis Hunyadi. The main purpose is to create an online presence for the artist and showcase her work. The site will target anyone interested in digital art and illustration, future collaborators, employers. It is a responsive design and it can be viewed on different sized devices.
 
+## Design
+
+The design is based on the work of Beatrix and the colors were chosen with the help of [Coolors](https://coolors.co). I found this a great tool to identify combinations of colors used in an image, which afterwards can be used on other elements to create consistency.
+
+The combination obtained is the following:
+
+![Purple-blue sky color palette result](assets/readme/image-palette.jpg)
+
+After considering the contrast, the following color palette was chosen with addition of a darker purple for text and reduced opacity when used as a container.  
+
+![Four color collage](assets/readme/project-palette.png)
+
+
+The fonts were matched in [Google Fonts](http://fonts.google.com) and imported. Recursive is used for the larger headings and navbar, while Merriweather Sans for smaller headings and paragraphs. 
+
+
 ## Features
 
 ## Testing
