@@ -85,6 +85,7 @@ header {
 }
 
 #logo-image {
+    cursor: pointer;
     padding-top: 10px;
     max-width: 200px;
 }
@@ -119,6 +120,7 @@ li:hover {
 }
 
 a {
+    cursor: pointer;
     text-decoration: none;
 }
 
@@ -152,6 +154,7 @@ a {
 }
 
 #hero-btn {
+    cursor: pointer;
     margin: 25px 0 0 35px;
     padding: 7px;
     width: 110px;
@@ -195,6 +198,7 @@ main {
 }
 
 .card {
+    cursor: pointer;
     width: 125px;
     height: 125px;
     align-items: center;
