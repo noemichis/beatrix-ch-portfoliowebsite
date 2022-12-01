@@ -30,27 +30,41 @@ The following *`git commands`* were used to commit and push the changes to the r
 
 ## Technology used
 
-### [HTML5](https://en.wikipedia.org/wiki/HTML5)
-### [CSS](https://en.wikipedia.org/wiki/CSS)
-### [Github](https://github.com) - create, develop and deploy project
-### [Gitpod](https://gitpod.io) - used as remote development platform to write and test code
-### [Google Fonts](http://fonts.google.com) - online font library 
-### [Coolors](https://coolors.co) - color palette generator used to identify the colors of the hero image and create a matching combination
-### [Fontawesome](https://fontawesome.com) - online icon library and toolkit for the social media section
-### [Chrome Dev Tools](https://developer.chrome.com/docs/devtools) - great tool for checking responsiveness on different screen sizes, making test changes and troubleshooting 
-### [Figma](https://www.figma.com) - design tool 
-### [Online Converter](https://www.online-convert.com/) - convert .jpeg and .png images to .webp for better site accessibility
-### [Favicon](https://favicon.io/) -generate favicon used in head of page
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+[CSS](https://en.wikipedia.org/wiki/CSS)
+
+[Github](https://github.com) - create, develop and deploy project
+
+[Gitpod](https://gitpod.io) - used as remote development platform to write and test code
+
+[Google Fonts](http://fonts.google.com) - online font library 
+
+[Coolors](https://coolors.co) - color palette generator used to identify the colors of the hero image and create a matching combination
+
+[Fontawesome](https://fontawesome.com) - online icon library and toolkit for the social media section
+
+[Chrome Dev Tools](https://developer.chrome.com/docs/devtools) - great tool for checking responsiveness on different screen sizes, making test changes and troubleshooting 
+
+[Figma](https://www.figma.com) - design tool 
+
+[Online Converter](https://www.online-convert.com/) - convert .jpeg and .png images to .webp for better site accessibility
+
+[Favicon](https://favicon.io/) -generate favicon used in head of page
 
 ## Credits
-#### All images across the site are designed and created by **Beatrix Chis-Hunyadi**, including the logo and favicon. 
+###### All images across the site are designed and created by **Beatrix Chis-Hunyadi**, including the logo and favicon. 
 
-#### Several learning sites were visited throughout the development of the project, as:
-#### [W3Schools](https://www.w3schools.com)
-#### [MDN](https://developer.mozilla.org/en-US/) 
-#### [CSS-tricks](https://css-tricks) 
-#### [Stack Overflow](https://stackoverflow.com/)
+Several learning sites were visited throughout the development of the project, as:
+[W3Schools](https://www.w3schools.com)
 
-#### Found great inspiration and help in learning `CSS` tips and tricks, including `flexbox` and `grid` by following [Kevin Powell](https://www.youtube.com/@KevinPowell/featured)'s channel
-#### [CodePen](https://codepen.io) was very useful to see some more complex styling possibilities - inspiration for `border-radius` by [Michael Picker](https://codepen.io/mp/pen/kBEeKw)
+[MDN](https://developer.mozilla.org/en-US/) 
+
+[CSS-tricks](https://css-tricks) 
+
+[Stack Overflow](https://stackoverflow.com/)
+
+Found great inspiration and help in learning `CSS` tips and tricks, including `flexbox` and `grid` by following [Kevin Powell](https://www.youtube.com/@KevinPowell/featured)'s channel
+
+[CodePen](https://codepen.io) was very useful to see some more complex styling possibilities - inspiration for `border-radius` by [Michael Picker](https://codepen.io/mp/pen/kBEeKw)
 
