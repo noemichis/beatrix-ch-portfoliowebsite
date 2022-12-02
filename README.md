@@ -2,14 +2,12 @@
 
 ![Site landing page](assets/readme/responsive.jpg)
 #### [**Live Website**](https://noemichis.github.io/beatrix-ch-portfoliowebsite/)
-***
 
 
 This project is a portfolio website for illustrator, Beatrix Chis Hunyadi. The main purpose is to create an online presence for the artist and showcase her work. The site will target anyone interested in digital art and illustration, future collaborators, employers. It is a responsive design and it can be viewed on different sized devices.
 
-
 ## User goals 
-***
+
 - Understand the purpose of the site immediately.
 - Become more familiar with the artist and her work.
 - Navigate easily between sections and pages.
@@ -17,7 +15,6 @@ This project is a portfolio website for illustrator, Beatrix Chis Hunyadi. The m
 - Get in touch easily.
 
 ## Design
-***
 
 The design is based on the work of Beatrix and the colors were chosen with the help of [Coolors](https://coolors.co). I found this a great tool to identify combinations of colors used in an image, which afterwards can be used on other elements to create consistency.
 
@@ -34,7 +31,6 @@ The fonts were matched in [Google Fonts](http://fonts.google.com) and imported. 
 
 
 ## Features
-***
 
 ### Navigation
 - The navigation bar is part of the header and it stays at the top of the page, offering better accessibility for the user at all times.
@@ -63,11 +59,13 @@ Contains a short introduction of the artist under the Hero section.
 ![Message from the artist and four round images](assets/readme/about.jpg) 
 
 - *Social media* and *contact form* are links, are highlighted on hover and can be clicked.
+
 ![Introduction message with highlighted social media mention](assets/readme/message-hover.jpg)
 
 - Responsive image links to gallery and specific projects with scale up hover effect.
 
 #### Image links on mobile
+
 ![Four round images displayed in a grid](assets/readme/image-links.jpg)
 
 ### Footer
@@ -77,8 +75,10 @@ The footer contains links to social media platforms, which open in a new tab.
 - Two different styles were used for the footer: 
 
 - one is used on the main page using the same pattern as the Hero image.
+
 ![Purple-blue footer with social media icons](assets/readme/footer-index.jpg)   
 - one is matching the header and is used on the Gallery and Get in touch pages.
+
 ![Clear footer with social media icons](assets/readme/footer-second.jpg) 
 
 ### Gallery
@@ -97,6 +97,7 @@ A showcase containing some of the artist's bigger projects and sketches organize
 ### Get in touch
 
 The Get in touch Page is a simple contact form where users can send their enquiries and thoughts to the artist.
+
 ![Get on touch mobile display, containing form](assets/readme/get-in-touch.jpg)
 
 - This page can easily be accessed through:
@@ -113,7 +114,6 @@ The Get in touch Page is a simple contact form where users can send their enquir
 - Create own *Thank You* page  
 
 ## Testing
-***
 
 ### Automated testing
 
@@ -151,19 +151,18 @@ The Get in touch Page is a simple contact form where users can send their enquir
 1. Lighthouse pointed out issues with the size of the images: 
     - re-sized files for a better fit and converted them into .webp, which helped increase performance score.
 
-2. Background was not re-positioning when on mobile:
+2. Background was re-positioning on the screen when on mobile:
     - I tried multiple approaches to fix this issue and the solution included all of them:
         - adjust background height
         - adjust background position and size
         - modify html structure 
         
-3. Footer moved up on Get in touch page:
-    - Several unsuccessful attempts were made to debug, but was only found that the background image was wrapping the footer on specific tablet sized screens only 
+3. Footer moves on Get in touch page:
+    - Several unsuccessful attempts were made to debug, was found that the background image was wrapping under the footer only on specific tablet sized screens
     - Tried to lowered background image z-index and seems to have fixed the issue for now. 
 
 
 ## Deployment
-***
 
 This project was developed and deployed through [GitHub](https://github.com), using [Gitpod](https://gitpod.io) as development platform and [VSCode](https://code.visualstudio.com/) as the default code editor. 
 
@@ -182,7 +181,6 @@ The following *`git commands`* were used to commit and push the changes to the r
 8. Refresh the page and find link to deployed project at the top
 
 ## Technology and resources
-***
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
@@ -201,7 +199,7 @@ The following *`git commands`* were used to commit and push the changes to the r
 - [The W3C CSS Validation Service](https://jigsaw.w3.org/)
 
 ## Credits
-***
+
 #### All images across the site are designed and created by **Beatrix Chis-Hunyadi**, including the logo and favicon. 
 
 
