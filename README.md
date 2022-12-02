@@ -1,13 +1,15 @@
 # Beatrix Chis Hunyadi
 
 ![Site landing page](assets/readme/responsive.jpg)
-### [**Portfolio Website**](https://noemichis.github.io/beatrix-ch-portfoliowebsite/)
+#### [**Live Website**](https://noemichis.github.io/beatrix-ch-portfoliowebsite/)
+***
 
 
 This project is a portfolio website for illustrator, Beatrix Chis Hunyadi. The main purpose is to create an online presence for the artist and showcase her work. The site will target anyone interested in digital art and illustration, future collaborators, employers. It is a responsive design and it can be viewed on different sized devices.
 
 
 ## User goals 
+***
 - Understand the purpose of the site immediately.
 - Become more familiar with the artist and her work.
 - Navigate easily between sections and pages.
@@ -15,6 +17,7 @@ This project is a portfolio website for illustrator, Beatrix Chis Hunyadi. The m
 - Get in touch easily.
 
 ## Design
+***
 
 The design is based on the work of Beatrix and the colors were chosen with the help of [Coolors](https://coolors.co). I found this a great tool to identify combinations of colors used in an image, which afterwards can be used on other elements to create consistency.
 
@@ -31,6 +34,7 @@ The fonts were matched in [Google Fonts](http://fonts.google.com) and imported. 
 
 
 ## Features
+***
 
 ### Navigation
 - The navigation bar is part of the header and it stays at the top of the page, offering better accessibility for the user at all times.
@@ -109,8 +113,57 @@ The Get in touch Page is a simple contact form where users can send their enquir
 - Create own *Thank You* page  
 
 ## Testing
+***
+
+### Automated testing
+
+- All html pages were tested with [W3C Markup validation Service](https://validator.w3.org/)
+![Markup validation result](assets/readme/html-valid.jpg)
+
+- The CSS code was tested with [The W3C CSS Validation Service](https://jigsaw.w3.org/)
+![CSS validation result](assets/readme/css-valid.jpg)
+
+- [Code Spell Checker](https://open-vsx.org/extension/streetsidesoftware/code-spell-checker) Github extension was used throughout development
+
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to measure performance, accessibility and best practices. Every page was tested both on mobile and desktop and the results were good.
+
+#### The test for the landing page returned the same result for mobile and desktop
+![Lading page lighthouse result](assets/readme/index-mobile-test.jpg)
+
+#### Gallery page test had a better result on desktop
+![Gallery page desktop result](assets/readme/gallery-desktop-test.jpg)
+
+#### Lower on mobile, due to some larger images - I tried to use lower resolution images where possible, but had to ensure relatively good quality. Compression helped a lot, but still place for improvement.
+![Gallery page mobile result](assets/readme/gallery-mobile-test.jpg)
+
+
+### Manual testing
+
+- The responsiveness was tested throughout development with [Chrome Dev Tools](https://developer.chrome.com/docs/devtools). 
+- It is tested to work in different browsers.
+- The links have been thoroughly tested and no broken links have been found.
+- External links open in a new tab.
+- Tests on different mobiles and large screens were performed too, the website responded well.
+- Contact form was also tested, fields require validation, submit is successful.
+
+### Bugs
+
+1. Lighthouse pointed out issues with the size of the images: 
+    - re-sized files for a better fit and converted them into .webp, which helped increase performance score.
+
+2. Background was not re-positioning when on mobile:
+    - I tried multiple approaches to fix this issue and the solution included all of them:
+        - adjust background height
+        - adjust background position and size
+        - modify html structure 
+        
+3. Footer moved up on Get in touch page:
+    - Several unsuccessful attempts were made to debug, but was only found that the background image was wrapping the footer on specific tablet sized screens only 
+    - Tried to lowered background image z-index and seems to have fixed the issue for now. 
+
 
 ## Deployment
+***
 
 This project was developed and deployed through [GitHub](https://github.com), using [Gitpod](https://gitpod.io) as development platform and [VSCode](https://code.visualstudio.com/) as the default code editor. 
 
@@ -118,17 +171,18 @@ The following *`git commands`* were used to commit and push the changes to the r
 - **git status** - list changes to files
 - **git add** - add modified files to staging  area
 - **git commit** - explain changes made to files
-- **git push**  - push all files from staging area to main [GitHub](https://github.com) repository
+- **git push**  - push all files from staging area to main **Github** repository
 
 [GitHub Pages](https://pages.github.com/) was used to deploy the project with the following steps:
-1. Log into [GitHub](https://github.com) and open project repository
+1. Log into **Github** and open project repository
 3. Navigate to `Settings`
 4. Find and click on `Pages` in the left-hand side menu
 5. Under `Source` select `Deploy from branch` 
 6. Click the dropdown menu under `Branch` and select `main` and **Save**
 8. Refresh the page and find link to deployed project at the top
 
-## Technology used
+## Technology and resources
+***
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
@@ -140,18 +194,25 @@ The following *`git commands`* were used to commit and push the changes to the r
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools) - great tool for checking responsiveness on different screen sizes, making test changes and troubleshooting 
 - [Figma](https://www.figma.com) - design tool 
 - [Online Converter](https://www.online-convert.com/) - convert .jpeg and .png images to .webp for better site accessibility
-- [Favicon](https://favicon.io/) -generate favicon used in head of page
+- [Favicon](https://favicon.io/) - generate favicon used in head of page
+- [Am I Responsive](https://ui.dev/) - test responsiveness and create main image
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+- [W3C Markup validation Service](https://validator.w3.org/)
+- [The W3C CSS Validation Service](https://jigsaw.w3.org/)
 
 ## Credits
+***
 #### All images across the site are designed and created by **Beatrix Chis-Hunyadi**, including the logo and favicon. 
 
+
 Several learning sites were visited throughout the development of the project, as:
+- [Code Institute Program](https://codeinstitute.net/)
 - [W3Schools](https://www.w3schools.com)
 - [MDN](https://developer.mozilla.org/en-US/) 
 - [CSS-tricks](https://css-tricks) 
 - [Stack Overflow](https://stackoverflow.com/)
 
-Found great inspiration and help in learning `CSS` tips and tricks, including `flexbox` and `grid` by following [Kevin Powell](https://www.youtube.com/@KevinPowell/featured)'s channel
+Found great inspiration and help in more `CSS` tips and tricks, including `flexbox` and `grid` by following [Kevin Powell](https://www.youtube.com/@KevinPowell/featured)'s channel 
 
-[CodePen](https://codepen.io) was very useful to see some more complex styling possibilities - inspiration for `border-radius` by [Michael Picker](https://codepen.io/mp/pen/kBEeKw)
+[CodePen](https://codepen.io) was very useful to see some more complex styling possibilities - inspiration for **border-radius** by [Michael Picker](https://codepen.io/mp/pen/kBEeKw)
 
