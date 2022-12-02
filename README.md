@@ -148,6 +148,8 @@ The Get in touch Page is a simple contact form where users can send their enquir
 
 ### Bugs
 
+#### Resolved
+
 1. Lighthouse pointed out issues with the size of the images: 
     - re-sized files for a better fit and converted them into .webp, which helped increase performance score.
 
@@ -159,8 +161,13 @@ The Get in touch Page is a simple contact form where users can send their enquir
         
 3. Footer moves on Get in touch page:
     - Several unsuccessful attempts were made to debug, was found that the background image was wrapping under the footer only on specific tablet sized screens
-    - Tried to lowered background image z-index and seems to have fixed the issue for now. 
+    - Lowered background image z-index and seems to have fixed the issue for now. 
 
+#### Unresolved
+
+1. When clicked the image links from the About page don't navigate to the title, but just below it.
+    - I tried to move the ID around, but that doesn't resolve the issue
+    - Seems to be caused bu the sticky header
 
 ## Deployment
 
