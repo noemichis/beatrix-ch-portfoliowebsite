@@ -37,7 +37,7 @@ The fonts were matched in [Google Fonts](http://fonts.google.com) and imported. 
 - On the left, the logo creates a link to the landing page. 
 - On the right, the navigation links lead to the `About` section, `Gallery` and `Get in touch` pages.
 - Navigation elements scale up on hover, improving user experience.
-- An active class is set so the current page is be underlined  
+- An active class is set so the current page is underlined.  
 
 #### Navigation on larger screens
 ![Navigation bar for larger screens](assets/readme/nav-desktop.jpg) 
@@ -45,7 +45,7 @@ The fonts were matched in [Google Fonts](http://fonts.google.com) and imported. 
 ![Navigation bar for mobile](assets/readme/nav-mobile.jpg)
 
 ### Hero section
-The Hero section is the landing page of the website containing one of the Beatrix's illustration, her name and a link that leads to the Gallery page.
+The Hero section is the landing page of the website containing one of the illustrations of Beatrix, her name and a link that leads to the Gallery page.
 
 ![Hero section](assets/readme/hero.jpg)
 
@@ -53,12 +53,12 @@ The Hero section is the landing page of the website containing one of the Beatri
 
 ### About
 
-Contains a short introduction of the artist right below the Hero section.
-- About navigation links to the beginning of the section.
+Contains a short introduction of the artist under the Hero section.
+- The `About` navigation hyperlink leads to the beginning of the section.
 
 ![Message from the artist and four round images](assets/readme/about.jpg) 
 
-- *Social media* and *contact form* are links, can be clicked and are highlighted on hover.
+- *Social media* and *contact form* are links, are highlighted on hover and can be clicked.
 ![Introduction message with highlighted social media mention](assets/readme/message-hover.jpg)
 
 - Responsive image links to gallery and specific projects with scale up hover effect.
@@ -72,10 +72,10 @@ The footer contains links to social media platforms, which open in a new tab.
 
 - Two different styles were used for the footer: 
 
-    - one is used on the main page using the same pattern as the Hero image.
-    ![Purple-blue footer with social media icons](assets/readme/footer-index.jpg)   
-    - one is matching the header and is used on the Gallery and Get in touch pages.
-    ![Clear footer with social media icons](assets/readme/footer-second.jpg) 
+- one is used on the main page using the same pattern as the Hero image.
+![Purple-blue footer with social media icons](assets/readme/footer-index.jpg)   
+- one is matching the header and is used on the Gallery and Get in touch pages.
+![Clear footer with social media icons](assets/readme/footer-second.jpg) 
 
 ### Gallery
 
